@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508889197386",
+    "project_id": "bookshelf-c5c6b",
+    "storage_bucket": "bookshelf-c5c6b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508889197386:android:3d5d834a5325edd5096fb3",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA99pDGqVhwhB_zbbds6Y-MMUX-VxkGjI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
