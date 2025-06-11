@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import '/lib/view/login_view.dart';
-import '/lib/view/register_view.dart';
-import '/lib/view/home_view.dart';
+import 'package:myapp/view/login_view.dart';
+import 'package:myapp/view/register_view.dart';
+import 'package:myapp/view/home_view.dart';
 
 class AppRoutes {
   static final routes = [

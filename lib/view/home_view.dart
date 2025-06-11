@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:book_shelf/controller/auth_controller.dart';
-import 'package:myapp/controller/book_controller.dart';
-import 'package:myapp/view/books_tab.dart'; // Ensure this import is correct
+import 'package:myapp/controller/auth_controller.dart';
+import 'package:myapp/controller/ book_controller.dart';
+import 'package:myapp/view/books_tab.dart';
 import 'package:myapp/view/favorites_tab.dart';
 
 class HomeView extends StatefulWidget {
@@ -45,13 +45,19 @@ class _HomeViewState extends State<HomeView> {
           ),
         ],
       ),
-      body: Center(
-        child: _widgetOptions.elementAt(_selectedIndex),
-      ),
+      body: Center(child: _widgetOptions.elementAt(_selectedIndex)),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.book_outlined), activeIcon: Icon(Icons.book), label: 'Todos'),
-          BottomNavigationBarItem(icon: Icon(Icons.star_outline), activeIcon: Icon(Icons.star), label: 'Favoritos'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.book_outlined),
+            activeIcon: Icon(Icons.book),
+            label: 'Todos',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.star_outline),
+            activeIcon: Icon(Icons.star),
+            label: 'Favoritos',
+          ),
         ],
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,

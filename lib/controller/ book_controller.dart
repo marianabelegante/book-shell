@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:book_shelf/model/book_model.dart';
-import 'package:book_shelf/service/book_service.dart';
+import 'package:myapp/model/book.dart';
+import 'package:myapp/service/book_service.dart';
 
 class BookController extends GetxController {
   final BookService _bookService = BookService();

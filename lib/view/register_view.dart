@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:book_shelf/controller/auth_controller.dart';
+import 'package:myapp/controller/auth_controller.dart';
 
 class RegisterView extends StatelessWidget {
   final AuthController _authController = Get.find();

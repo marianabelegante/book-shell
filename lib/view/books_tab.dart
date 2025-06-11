@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:book_shelf/controller/book_controller.dart';
-import 'package:book_shelf/view/book_list_item.dart';
-
+import 'package:myapp/controller/ book_controller.dart';
+import 'package:myapp/view/book_list_item.dart';
+import 'package:myapp/controller/ book_controller.dart';
 class BooksTab extends StatelessWidget {
   final BookController bookController = Get.find();
 

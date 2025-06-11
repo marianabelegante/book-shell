@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:myapp/model/book.dart'
+import 'package:myapp/model/book.dart';
 
 class BookService {
   // URL da API com o proxy CORS Anywhere para desenvolvimento
